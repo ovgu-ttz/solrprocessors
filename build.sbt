@@ -10,7 +10,7 @@ scalaVersion := "2.10.3"
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-optimise", "-feature", "-Xlint", "-language:postfixOps")
 
-libraryDependencies += "org.apache.solr" % "solr-core" % "4.3.0" % "compile"
+libraryDependencies += "org.apache.solr" % "solr-core" % "4.5.1" % "compile"
 
 libraryDependencies += "org.slf4j" % "slf4j-api" % "1.6.1" % "compile"
 
